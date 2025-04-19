@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relief Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png"> <!-- Favicon -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <video class="logo-video" autoplay muted playsinline>
+                    <source src="images/logo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+                <span class="logo">Relief Hub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a><img class="nav-logos" src="images/home.jpg" /></li>
+                <li><a href="forum.html" >Forum</a><img class="nav-logos" src="images/forum.jpg" /></li>
+                <li><a href="post.html" class="active">Post</a><img class="nav-logos" src="images/post.jpg" /></li>
+                <li><a href="donations.html">Donation</a><img class="nav-logos" src="images/donation.jpg" /></li>
+                <li><a href="contact.html">Contact</a><img class="nav-logos" src="images/contactt.jpg" /></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-video-wrapper">
+        <video autoplay muted loop playsinline>
+            <source src="images/home-bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container" style="padding-top: 90px;">
+        <!-- Post 3 -->
+        <div class="post-card">
+            <div class="post-header">
+                <img src="images/rt-logo.png" alt="User Avatar" class="user-avatar">
+                <div class="user-info">
+                    <span class="username">Aussie Relief</span>
+                    <span class="post-meta">March 5, 2025</span>
+                </div>
+            </div>
+            <div class="post-image">
+                <img src="images/image.png" alt="Wildfire Evacuation">
+            </div>
+            <div class="post-actions">
+                <button class="like-btn">
+                    <span class="heart-icon">❤️</span>
+                    <span class="like-count">200 Likes</span>
+                </button>
+            </div>
+            <div class="post-content">
+                <p><strong>Aussie Relief</strong> Wildfires are raging in New South Wales, forcing thousands to evacuate. We're providing temporary housing and essentials. Please contribute to our relief fund or volunteer on-site. #WildfireRelief #Australia</p>
+            </div>
+        </div>
+
+        <pre>
+  
+        </pre>
+
+    
+        <!-- Posts Section -->
+        <div class="posts">
+            <!-- Post 1 -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="images/rt-logo.png" alt="User Avatar" class="user-avatar">
+                    <div class="user-info">
+                        <span class="username">Relief Team</span>
+                        <span class="post-meta">March 15, 2025</span>
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="images/hurricane.png" alt="Hurricane Relief">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn">
+                        <span class="heart-icon">❤️</span>
+                        <span class="like-count">120 Likes</span>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p><strong>Relief Team</strong> Hurricane Zeta has caused widespread flooding in Florida. We urgently need volunteers and supplies, including water, food, and medical kits. Join us at the Miami Relief Center to help those affected. #HurricaneRelief #FloridaStrong</p>
+                </div>
+            </div>
+            <pre>
+            </pre>
+
+            <!-- Post 2 - New -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="images/rt-logo.png" alt="User Avatar" class="user-avatar">
+                    <div class="user-info">
+                        <span class="username">Global Aid</span>
+                        <span class="post-meta">April 1, 2025</span>
+                    </div>
+                </div>
+                <div class="post-image">
+                    <img src="images/earthquake.jpg" alt="Earthquake Relief">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn">
+                        <span class="heart-icon">❤️</span>
+                        <span class="like-count">90 Likes</span>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p><strong>Global Aid</strong> A devastating earthquake has struck Nepal, leaving thousands homeless. We are distributing emergency food, tents, and medical supplies. Support our mission by donating or volunteering. #EarthquakeRelief #PrayForNepal</p>
+                </div>
+            </div>
+    <pre>
+        </pre>
+        </div>
+    </div>
+    
+
+    <script>
+        let count = 0;
+
+        function increaseLike() {
+            count++;
+            document.getElementById("likeCount").innerText = count + " Likes";
+        }
+    </script>
+</body>
+</html>
