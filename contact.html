@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Relief Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <video class="logo-video" autoplay muted>
+                    <source src="images/logo.mp4" type="video/mp4">
+                </video>
+                <span class="logo">Relief Hub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a> <img class="nav-logos" src="images/home.jpg" /></li>
+                <li><a href="forum.html">Forum</a><img class="nav-logos" src="images/forum.jpg" /></li>
+                <li><a href="post.html">Post</a><img class="nav-logos" src="images/post.jpg" /></li>
+                <li><a href="donations.html">Donation</a><img class="nav-logos" src="images/donation.jpg" /></li>
+                <li><a href="contact.html" class="active">Contact</a><img class="nav-logos" src="images/contactt.jpg" /></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-video-wrapper">
+        <video autoplay muted loop playsinline>
+            <source src="images/contact-bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div style="padding-top: 5%;">
+        <center><h1 class="contact-heading" style="color: white; font-size: 40px;">Connecting with us means bringing hope to those in need</h1></center>
+    </div>
+
+    <div class="contact-form-div">
+        <section class="contact-form">
+            <form action="https://formspree.io/f/xgvaalze" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+                <label for="message">Your Enquiry</label>
+                <textarea id="message" name="message" placeholder="Type your enquiry here..." required></textarea><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>  
+    </div>
+
+</body>
+</html>
