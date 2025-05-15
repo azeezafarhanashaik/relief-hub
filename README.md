@@ -14,14 +14,14 @@
 ### 🏠 Homepage (index.html)
 ![Homepage Screenshot](screenshots/index.png)
 
-### 🤝 Donation Page (donations.html)
-![Donations Page Screenshot](screenshots/donations.png)
-
 ### 💬 Forum Page (forum.html)
 ![Forum Screenshot](screenshots/forum.png)
 
 ### 📝 Posts Page (post.html)
 ![Posts Page Screenshot](screenshots/post.png)
+
+### 🤝 Donation Page (donations.html)
+![Donations Page Screenshot](screenshots/donations.png)
 
 ### 📞 Contact Page (contact.html)
 ![Contact Page Screenshot](screenshots/contact.png)
